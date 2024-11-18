@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-23T15:10:45.988Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="FP_3_eZxN-kCWfG0CRm6" version="24.2.5" type="device" pages="3">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.8.6" pages="3">
   <diagram name="Contexto arquiteto" id="THTbQIvVp7tlJn5Zky1v">
     <mxGraphModel dx="1974" dy="-540" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -557,7 +557,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="cpq74aqjhuTr_p5aP-2X" name="Contexto do Dev">
-    <mxGraphModel dx="662" dy="408" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1906" dy="726" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -588,29 +588,29 @@
             <mxRectangle width="360" height="101" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bxEAdzd8XKWYMBC_ZpDw-12" value="Compras por boleto" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;swimlaneFillColor=#FFFFFF;fontColor=#000000;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="510" y="120" width="390" height="280" as="geometry" />
+        <mxCell id="HdG1HFyQoxmZOVkZQaR4-1" value="Pagamento mobile" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;swimlaneFillColor=#FFFFFF;fontColor=#000000;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="120" width="390" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="bxEAdzd8XKWYMBC_ZpDw-13" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;fontColor=#000000;" parent="bxEAdzd8XKWYMBC_ZpDw-12" vertex="1">
+        <mxCell id="HdG1HFyQoxmZOVkZQaR4-2" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;fontColor=#000000;" vertex="1" parent="HdG1HFyQoxmZOVkZQaR4-1">
           <mxGeometry y="30" width="390" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="bxEAdzd8XKWYMBC_ZpDw-14" value="Como &lt;span style=&quot;font-weight: normal;&quot;&gt;um usuário do ecommerce&lt;/span&gt;&lt;div&gt;Quero &lt;span style=&quot;font-weight: 400;&quot;&gt;poder escolher pagar minhas compras com boleto bancário&lt;/span&gt;&lt;/div&gt;&lt;div&gt;Para &lt;span style=&quot;font-weight: normal;&quot;&gt;que possa realizar pagamentos sem cartão de crédito&lt;/span&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;pointerEvents=1;fontColor=#000000;fontStyle=1;align=left;" parent="bxEAdzd8XKWYMBC_ZpDw-13" vertex="1">
+        <mxCell id="HdG1HFyQoxmZOVkZQaR4-3" value="Como&lt;span style=&quot;font-weight: normal;&quot;&gt;&amp;nbsp;cliente do aplicativo do ecommerce&lt;/span&gt;&lt;div&gt;Quero&lt;span style=&quot;font-weight: normal;&quot;&gt;&amp;nbsp;quero realizar pagamentos utilizando o QR code&lt;/span&gt;&lt;/div&gt;&lt;div&gt;Para&lt;span style=&quot;font-weight: normal;&quot;&gt;&amp;nbsp;evitar o uso do cartão físico e simplificar minha experiência de compra.&lt;/span&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;pointerEvents=1;fontColor=#000000;fontStyle=1;align=left;" vertex="1" parent="HdG1HFyQoxmZOVkZQaR4-2">
           <mxGeometry width="390" height="100" as="geometry">
             <mxRectangle width="390" height="100" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bxEAdzd8XKWYMBC_ZpDw-15" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;fontColor=#000000;" parent="bxEAdzd8XKWYMBC_ZpDw-12" vertex="1">
+        <mxCell id="HdG1HFyQoxmZOVkZQaR4-4" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;fontColor=#000000;" vertex="1" parent="HdG1HFyQoxmZOVkZQaR4-1">
           <mxGeometry y="130" width="390" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="bxEAdzd8XKWYMBC_ZpDw-16" value="Critérios de aceite" style="html=1;whiteSpace=wrap;connectable=0;strokeColor=#82b366;overflow=hidden;fillColor=#d5e8d4;pointerEvents=1;fontStyle=1;align=center;" parent="bxEAdzd8XKWYMBC_ZpDw-15" vertex="1">
+        <mxCell id="HdG1HFyQoxmZOVkZQaR4-5" value="Critérios de aceite" style="html=1;whiteSpace=wrap;connectable=0;strokeColor=#82b366;overflow=hidden;fillColor=#d5e8d4;pointerEvents=1;fontStyle=1;align=center;" vertex="1" parent="HdG1HFyQoxmZOVkZQaR4-4">
           <mxGeometry width="390" height="49" as="geometry">
             <mxRectangle width="390" height="49" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bxEAdzd8XKWYMBC_ZpDw-17" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;fontColor=#000000;" parent="bxEAdzd8XKWYMBC_ZpDw-12" vertex="1">
+        <mxCell id="HdG1HFyQoxmZOVkZQaR4-6" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;fontColor=#000000;" vertex="1" parent="HdG1HFyQoxmZOVkZQaR4-1">
           <mxGeometry y="179" width="390" height="101" as="geometry" />
         </mxCell>
-        <mxCell id="bxEAdzd8XKWYMBC_ZpDw-18" value="&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;O usuário deve ser capaz de selecionar o método pagamento por boleto.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;O sistema deve automaticamente gerar o boleto com as informações: valor da compra, vencimento (5 dias apos a compra), codigo de barras, instruções adicionais.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Boleto deve ser gerado em PDF&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;" style="html=1;whiteSpace=wrap;connectable=0;overflow=hidden;pointerEvents=1;fontStyle=1;align=left;" parent="bxEAdzd8XKWYMBC_ZpDw-17" vertex="1">
+        <mxCell id="HdG1HFyQoxmZOVkZQaR4-7" value="&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;O app deve exibir uma tela de confirmação do pagamento com os detalhes da transação (valor, destinatário, descrição).&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;Em caso de erro na transação, o cliente deve receber uma mensagem clara e orientações para resolução.&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;O histórico da transação deve estar disponível imediatamente após a conclusão do pagamento.&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="html=1;whiteSpace=wrap;connectable=0;overflow=hidden;pointerEvents=1;fontStyle=1;align=left;" vertex="1" parent="HdG1HFyQoxmZOVkZQaR4-6">
           <mxGeometry width="390" height="101" as="geometry">
             <mxRectangle width="390" height="101" as="alternateBounds" />
           </mxGeometry>
